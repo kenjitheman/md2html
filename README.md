@@ -1,10 +1,8 @@
 ## markdown to html converter
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust" />
-  </a>
-</p>
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" height="200" alt="rust logo"  />
+</div>
 
 
 ## project structure:
@@ -36,19 +34,19 @@
 
 ## installation
 
-- 1.
+- 1
 
 ```sh
 git clone https://github.com/kenjitheman/md-to-html
 ```
 
-- 2.
+- 2
 
 ```sh
 cargo build --release
 ```
 
-- 3.
+- 3
 
 ```sh
 cargo run --bin mdtohtml
