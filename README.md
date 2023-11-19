@@ -1,58 +1,25 @@
-## markdown to html converter
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" height="200" alt="rust logo"  />
-</div>
-
-
-## project structure:
-
-```rust
-.
-├── Cargo.lock
-├── Cargo.toml
-├── LICENSE
-├── README.md
-├── src
-│   └── main.rs
-└── tests
-    └── test.rs
-```
-
-- a simple command-line tool in Rust to convert Markdown files to HTML
-- this project is a Markdown to HTML converter written in rust
-- it provides a command-line interface for converting Markdown files to HTML files 
-- it uses the `pulldown-cmark` library for parsing Markdown and generating HTML
+## Features
+- Converts Markdown files to HTML.
+- Provides a command-line interface for easy conversion.
+- Handles basic Markdown formatting.
+- It uses the `pulldown-cmark` library for parsing Markdown and generating HTML.
 
 
-## features
-
-- converts Markdown files to HTML
-- provides a command-line interface for easy conversion
-- handles basic Markdown formatting
-
-
-## installation
-
-- 1
+## Installation
 
 ```sh
 git clone https://github.com/kenjitheman/md-to-html
 ```
 
-- 2
-
 ```sh
 cargo build --release
 ```
-
-- 3
 
 ```sh
 cargo run --bin mdtohtml
 ```
 
-## example
+## Example
 
 ```sh
 cargo run --bin markdown_to_html_converter
@@ -60,13 +27,13 @@ cargo run --bin markdown_to_html_converter
 [SUCCESS] HTML file created at: example.html
 ```
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first to
-  discuss what you would like to change
+- Pull requests are welcome, for major changes, please open an issue first to
+  discuss what you would like to change.
 
-- please make sure to update tests as appropriate
+- Please make sure to update tests as appropriate.
 
-## license
+## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
