@@ -36,25 +36,25 @@
 
 - 1
 
-```shell
+```sh
 git clone https://github.com/kenjitheman/md-to-html
 ```
 
 - 2
 
-```shell
+```sh
 cargo build --release
 ```
 
 - 3
 
-```shell
+```sh
 cargo run --bin mdtohtml
 ```
 
 ## Example
 
-```shell
+```sh
 cargo run --bin markdown_to_html_converter
 [+] enter the path to the Markdown file: example.md
 [SUCCESS] HTML file created at: example.html
