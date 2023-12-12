@@ -8,7 +8,8 @@
 ## Project structure:
 
 ```rust
-.
+md2html
+│
 ├── Cargo.lock
 ├── Cargo.toml
 ├── LICENSE
